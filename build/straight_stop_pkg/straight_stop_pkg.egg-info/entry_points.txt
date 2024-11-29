@@ -1,0 +1,3 @@
+[console_scripts]
+straight_stop = straight_stop_pkg.straight_stop:main
+

@@ -1,0 +1,21 @@
+[0.774s] Invoking command in '/home/senne/ros2_ws/src/patrol_pkg': PYTHONPATH=/home/senne/ros2_ws/build/patrol_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/patrol_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/patrol_pkg build --build-base /home/senne/ros2_ws/build/patrol_pkg/build install --record /home/senne/ros2_ws/build/patrol_pkg/install.log --single-version-externally-managed install_data
+[1.060s] running egg_info
+[1.060s] writing ../../build/patrol_pkg/patrol_pkg.egg-info/PKG-INFO
+[1.060s] writing dependency_links to ../../build/patrol_pkg/patrol_pkg.egg-info/dependency_links.txt
+[1.060s] writing entry points to ../../build/patrol_pkg/patrol_pkg.egg-info/entry_points.txt
+[1.060s] writing requirements to ../../build/patrol_pkg/patrol_pkg.egg-info/requires.txt
+[1.060s] writing top-level names to ../../build/patrol_pkg/patrol_pkg.egg-info/top_level.txt
+[1.062s] reading manifest file '../../build/patrol_pkg/patrol_pkg.egg-info/SOURCES.txt'
+[1.062s] writing manifest file '../../build/patrol_pkg/patrol_pkg.egg-info/SOURCES.txt'
+[1.062s] running build
+[1.062s] running build_py
+[1.062s] running install
+[1.063s] running install_lib
+[1.064s] running install_data
+[1.064s] running install_egg_info
+[1.065s] removing '/home/senne/ros2_ws/install/patrol_pkg/lib/python3.10/site-packages/patrol_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.065s] Copying ../../build/patrol_pkg/patrol_pkg.egg-info to /home/senne/ros2_ws/install/patrol_pkg/lib/python3.10/site-packages/patrol_pkg-0.0.0-py3.10.egg-info
+[1.072s] running install_scripts
+[1.094s] Installing patrol script to /home/senne/ros2_ws/install/patrol_pkg/lib/patrol_pkg
+[1.094s] writing list of installed files to '/home/senne/ros2_ws/build/patrol_pkg/install.log'
+[1.127s] Invoked command in '/home/senne/ros2_ws/src/patrol_pkg' returned '0': PYTHONPATH=/home/senne/ros2_ws/build/patrol_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/patrol_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/patrol_pkg build --build-base /home/senne/ros2_ws/build/patrol_pkg/build install --record /home/senne/ros2_ws/build/patrol_pkg/install.log --single-version-externally-managed install_data

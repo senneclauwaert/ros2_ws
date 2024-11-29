@@ -1,0 +1,21 @@
+[2.670s] Invoking command in '/home/senne/ros2_ws/src/lidar_pkg': PYTHONPATH=/home/senne/ros2_ws/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_pkg build --build-base /home/senne/ros2_ws/build/lidar_pkg/build install --record /home/senne/ros2_ws/build/lidar_pkg/install.log --single-version-externally-managed install_data
+[3.186s] running egg_info
+[3.186s] writing ../../build/lidar_pkg/lidar_pkg.egg-info/PKG-INFO
+[3.187s] writing dependency_links to ../../build/lidar_pkg/lidar_pkg.egg-info/dependency_links.txt
+[3.187s] writing entry points to ../../build/lidar_pkg/lidar_pkg.egg-info/entry_points.txt
+[3.187s] writing requirements to ../../build/lidar_pkg/lidar_pkg.egg-info/requires.txt
+[3.187s] writing top-level names to ../../build/lidar_pkg/lidar_pkg.egg-info/top_level.txt
+[3.189s] reading manifest file '../../build/lidar_pkg/lidar_pkg.egg-info/SOURCES.txt'
+[3.196s] writing manifest file '../../build/lidar_pkg/lidar_pkg.egg-info/SOURCES.txt'
+[3.196s] running build
+[3.196s] running build_py
+[3.196s] running install
+[3.197s] running install_lib
+[3.198s] running install_data
+[3.199s] running install_egg_info
+[3.200s] removing '/home/senne/ros2_ws/install/lidar_pkg/lib/python3.10/site-packages/lidar_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.200s] Copying ../../build/lidar_pkg/lidar_pkg.egg-info to /home/senne/ros2_ws/install/lidar_pkg/lib/python3.10/site-packages/lidar_pkg-0.0.0-py3.10.egg-info
+[3.202s] running install_scripts
+[3.233s] Installing lidar script to /home/senne/ros2_ws/install/lidar_pkg/lib/lidar_pkg
+[3.234s] writing list of installed files to '/home/senne/ros2_ws/build/lidar_pkg/install.log'
+[3.308s] Invoked command in '/home/senne/ros2_ws/src/lidar_pkg' returned '0': PYTHONPATH=/home/senne/ros2_ws/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_pkg build --build-base /home/senne/ros2_ws/build/lidar_pkg/build install --record /home/senne/ros2_ws/build/lidar_pkg/install.log --single-version-externally-managed install_data

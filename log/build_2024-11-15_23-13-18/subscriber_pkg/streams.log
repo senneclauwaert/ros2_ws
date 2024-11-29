@@ -1,0 +1,21 @@
+[2.642s] Invoking command in '/home/senne/ros2_ws/src/subscriber_pkg': PYTHONPATH=/home/senne/ros2_ws/build/subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /home/senne/ros2_ws/build/subscriber_pkg/build install --record /home/senne/ros2_ws/build/subscriber_pkg/install.log --single-version-externally-managed install_data
+[3.145s] running egg_info
+[3.146s] writing ../../build/subscriber_pkg/subscriber_pkg.egg-info/PKG-INFO
+[3.146s] writing dependency_links to ../../build/subscriber_pkg/subscriber_pkg.egg-info/dependency_links.txt
+[3.146s] writing entry points to ../../build/subscriber_pkg/subscriber_pkg.egg-info/entry_points.txt
+[3.147s] writing requirements to ../../build/subscriber_pkg/subscriber_pkg.egg-info/requires.txt
+[3.147s] writing top-level names to ../../build/subscriber_pkg/subscriber_pkg.egg-info/top_level.txt
+[3.154s] reading manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[3.155s] writing manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[3.155s] running build
+[3.156s] running build_py
+[3.156s] running install
+[3.156s] running install_lib
+[3.158s] running install_data
+[3.158s] running install_egg_info
+[3.159s] removing '/home/senne/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.160s] Copying ../../build/subscriber_pkg/subscriber_pkg.egg-info to /home/senne/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info
+[3.161s] running install_scripts
+[3.191s] Installing simple_subscriber script to /home/senne/ros2_ws/install/subscriber_pkg/lib/subscriber_pkg
+[3.192s] writing list of installed files to '/home/senne/ros2_ws/build/subscriber_pkg/install.log'
+[3.268s] Invoked command in '/home/senne/ros2_ws/src/subscriber_pkg' returned '0': PYTHONPATH=/home/senne/ros2_ws/build/subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /home/senne/ros2_ws/build/subscriber_pkg/build install --record /home/senne/ros2_ws/build/subscriber_pkg/install.log --single-version-externally-managed install_data

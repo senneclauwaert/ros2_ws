@@ -1,0 +1,21 @@
+[2.651s] Invoking command in '/home/senne/ros2_ws/src/publisher_pkg': PYTHONPATH=/home/senne/ros2_ws/build/publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/senne/ros2_ws/build/publisher_pkg/build install --record /home/senne/ros2_ws/build/publisher_pkg/install.log --single-version-externally-managed install_data
+[3.147s] running egg_info
+[3.147s] writing ../../build/publisher_pkg/publisher_pkg.egg-info/PKG-INFO
+[3.159s] writing dependency_links to ../../build/publisher_pkg/publisher_pkg.egg-info/dependency_links.txt
+[3.159s] writing entry points to ../../build/publisher_pkg/publisher_pkg.egg-info/entry_points.txt
+[3.159s] writing requirements to ../../build/publisher_pkg/publisher_pkg.egg-info/requires.txt
+[3.159s] writing top-level names to ../../build/publisher_pkg/publisher_pkg.egg-info/top_level.txt
+[3.161s] reading manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[3.162s] writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[3.162s] running build
+[3.162s] running build_py
+[3.163s] running install
+[3.163s] running install_lib
+[3.164s] running install_data
+[3.165s] running install_egg_info
+[3.166s] removing '/home/senne/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.167s] Copying ../../build/publisher_pkg/publisher_pkg.egg-info to /home/senne/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info
+[3.168s] running install_scripts
+[3.199s] Installing simple_publisher script to /home/senne/ros2_ws/install/publisher_pkg/lib/publisher_pkg
+[3.199s] writing list of installed files to '/home/senne/ros2_ws/build/publisher_pkg/install.log'
+[3.261s] Invoked command in '/home/senne/ros2_ws/src/publisher_pkg' returned '0': PYTHONPATH=/home/senne/ros2_ws/build/publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/senne/ros2_ws/build/publisher_pkg/build install --record /home/senne/ros2_ws/build/publisher_pkg/install.log --single-version-externally-managed install_data

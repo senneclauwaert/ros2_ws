@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/straight_stop_pkg/straight_stop_pkg.egg-info
+writing ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/requires.txt
+writing top-level names to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/top_level.txt
+writing manifest file '../../build/straight_stop_pkg/straight_stop_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/straight_stop_pkg/straight_stop_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/straight_stop_pkg/straight_stop_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/senne/ros2_ws/build/straight_stop_pkg/build
+creating /home/senne/ros2_ws/build/straight_stop_pkg/build/lib
+creating /home/senne/ros2_ws/build/straight_stop_pkg/build/lib/straight_stop_pkg
+copying straight_stop_pkg/__init__.py -> /home/senne/ros2_ws/build/straight_stop_pkg/build/lib/straight_stop_pkg
+copying straight_stop_pkg/straight_stop.py -> /home/senne/ros2_ws/build/straight_stop_pkg/build/lib/straight_stop_pkg
+running install
+running install_lib
+creating /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg
+copying /home/senne/ros2_ws/build/straight_stop_pkg/build/lib/straight_stop_pkg/__init__.py -> /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg
+copying /home/senne/ros2_ws/build/straight_stop_pkg/build/lib/straight_stop_pkg/straight_stop.py -> /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg
+byte-compiling /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg/straight_stop.py to straight_stop.cpython-310.pyc
+running install_data
+creating /home/senne/ros2_ws/install/straight_stop_pkg/share/ament_index
+creating /home/senne/ros2_ws/install/straight_stop_pkg/share/ament_index/resource_index
+creating /home/senne/ros2_ws/install/straight_stop_pkg/share/ament_index/resource_index/packages
+copying resource/straight_stop_pkg -> /home/senne/ros2_ws/install/straight_stop_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/senne/ros2_ws/install/straight_stop_pkg/share/straight_stop_pkg
+running install_egg_info
+Copying ../../build/straight_stop_pkg/straight_stop_pkg.egg-info to /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing straight_stop script to /home/senne/ros2_ws/install/straight_stop_pkg/lib/straight_stop_pkg
+writing list of installed files to '/home/senne/ros2_ws/build/straight_stop_pkg/install.log'
