@@ -1,0 +1,24 @@
+[0.627s] Invoking command in '/home/senne/ros2_ws/src/straight_stop_pkg': PYTHONPATH=/home/senne/ros2_ws/build/straight_stop_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/straight_stop_pkg build --build-base /home/senne/ros2_ws/build/straight_stop_pkg/build install --record /home/senne/ros2_ws/build/straight_stop_pkg/install.log --single-version-externally-managed install_data
+[0.838s] running egg_info
+[0.838s] writing ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/PKG-INFO
+[0.838s] writing dependency_links to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/dependency_links.txt
+[0.838s] writing entry points to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/entry_points.txt
+[0.838s] writing requirements to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/requires.txt
+[0.838s] writing top-level names to ../../build/straight_stop_pkg/straight_stop_pkg.egg-info/top_level.txt
+[0.840s] reading manifest file '../../build/straight_stop_pkg/straight_stop_pkg.egg-info/SOURCES.txt'
+[0.840s] writing manifest file '../../build/straight_stop_pkg/straight_stop_pkg.egg-info/SOURCES.txt'
+[0.840s] running build
+[0.840s] running build_py
+[0.840s] copying straight_stop_pkg/straight_stop.py -> /home/senne/ros2_ws/build/straight_stop_pkg/build/lib/straight_stop_pkg
+[0.841s] running install
+[0.841s] running install_lib
+[0.841s] copying /home/senne/ros2_ws/build/straight_stop_pkg/build/lib/straight_stop_pkg/straight_stop.py -> /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg
+[0.842s] byte-compiling /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg/straight_stop.py to straight_stop.cpython-310.pyc
+[0.842s] running install_data
+[0.842s] running install_egg_info
+[0.844s] removing '/home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.844s] Copying ../../build/straight_stop_pkg/straight_stop_pkg.egg-info to /home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages/straight_stop_pkg-0.0.0-py3.10.egg-info
+[0.845s] running install_scripts
+[0.860s] Installing straight_stop script to /home/senne/ros2_ws/install/straight_stop_pkg/lib/straight_stop_pkg
+[0.860s] writing list of installed files to '/home/senne/ros2_ws/build/straight_stop_pkg/install.log'
+[0.884s] Invoked command in '/home/senne/ros2_ws/src/straight_stop_pkg' returned '0': PYTHONPATH=/home/senne/ros2_ws/build/straight_stop_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/straight_stop_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/straight_stop_pkg build --build-base /home/senne/ros2_ws/build/straight_stop_pkg/build install --record /home/senne/ros2_ws/build/straight_stop_pkg/install.log --single-version-externally-managed install_data
