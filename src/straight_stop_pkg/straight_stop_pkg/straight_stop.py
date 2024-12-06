@@ -35,7 +35,7 @@ class Lidar(Node):
         else:
             self.cmd.linear.x = 0.0
             self.cmd.angular.z = 0.0
-        
+                    
         self.publisher_.publish(self.cmd)
 
 def main(args=None):
