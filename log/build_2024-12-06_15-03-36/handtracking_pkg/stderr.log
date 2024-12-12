@@ -1,0 +1,5 @@
+  File "/home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg/handtracking.py", line 54
+    self.laser_left = min(msg.ranges[30:90])t
+                                            ^
+SyntaxError: invalid syntax
+

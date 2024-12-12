@@ -1,0 +1,29 @@
+[0.591s] Invoking command in '/home/senne/ros2_ws/src/handtracking_pkg': PYTHONPATH=/home/senne/ros2_ws/build/handtracking_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/handtracking_pkg build --build-base /home/senne/ros2_ws/build/handtracking_pkg/build install --record /home/senne/ros2_ws/build/handtracking_pkg/install.log --single-version-externally-managed install_data
+[0.813s] running egg_info
+[0.813s] writing ../../build/handtracking_pkg/handtracking_pkg.egg-info/PKG-INFO
+[0.813s] writing dependency_links to ../../build/handtracking_pkg/handtracking_pkg.egg-info/dependency_links.txt
+[0.813s] writing entry points to ../../build/handtracking_pkg/handtracking_pkg.egg-info/entry_points.txt
+[0.814s] writing requirements to ../../build/handtracking_pkg/handtracking_pkg.egg-info/requires.txt
+[0.814s] writing top-level names to ../../build/handtracking_pkg/handtracking_pkg.egg-info/top_level.txt
+[0.815s] reading manifest file '../../build/handtracking_pkg/handtracking_pkg.egg-info/SOURCES.txt'
+[0.816s] writing manifest file '../../build/handtracking_pkg/handtracking_pkg.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.816s] copying handtracking_pkg/handtracking.py -> /home/senne/ros2_ws/build/handtracking_pkg/build/lib/handtracking_pkg
+[0.816s] running install
+[0.816s] running install_lib
+[0.817s] copying /home/senne/ros2_ws/build/handtracking_pkg/build/lib/handtracking_pkg/handtracking.py -> /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg
+[0.817s] byte-compiling /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg/handtracking.py to handtracking.cpython-310.pyc
+[0.818s] running install_data
+[0.818s]   File "/home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg/handtracking.py", line 54
+[0.818s]     self.laser_left = min(msg.ranges[30:90])t
+[0.818s]                                             ^
+[0.818s] SyntaxError: invalid syntax
+[0.818s] 
+[0.818s] running install_egg_info
+[0.819s] removing '/home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.819s] Copying ../../build/handtracking_pkg/handtracking_pkg.egg-info to /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg-0.0.0-py3.10.egg-info
+[0.820s] running install_scripts
+[0.837s] Installing handtracking script to /home/senne/ros2_ws/install/handtracking_pkg/lib/handtracking_pkg
+[0.837s] writing list of installed files to '/home/senne/ros2_ws/build/handtracking_pkg/install.log'
+[0.862s] Invoked command in '/home/senne/ros2_ws/src/handtracking_pkg' returned '0': PYTHONPATH=/home/senne/ros2_ws/build/handtracking_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/handtracking_pkg build --build-base /home/senne/ros2_ws/build/handtracking_pkg/build install --record /home/senne/ros2_ws/build/handtracking_pkg/install.log --single-version-externally-managed install_data

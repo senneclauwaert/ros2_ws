@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/handtracking_pkg/handtracking_pkg.egg-info
+writing ../../build/handtracking_pkg/handtracking_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/handtracking_pkg/handtracking_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/handtracking_pkg/handtracking_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/handtracking_pkg/handtracking_pkg.egg-info/requires.txt
+writing top-level names to ../../build/handtracking_pkg/handtracking_pkg.egg-info/top_level.txt
+writing manifest file '../../build/handtracking_pkg/handtracking_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/handtracking_pkg/handtracking_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/handtracking_pkg/handtracking_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/senne/ros2_ws/build/handtracking_pkg/build
+creating /home/senne/ros2_ws/build/handtracking_pkg/build/lib
+creating /home/senne/ros2_ws/build/handtracking_pkg/build/lib/handtracking_pkg
+copying handtracking_pkg/__init__.py -> /home/senne/ros2_ws/build/handtracking_pkg/build/lib/handtracking_pkg
+copying handtracking_pkg/handtracking.py -> /home/senne/ros2_ws/build/handtracking_pkg/build/lib/handtracking_pkg
+running install
+running install_lib
+creating /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg
+copying /home/senne/ros2_ws/build/handtracking_pkg/build/lib/handtracking_pkg/__init__.py -> /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg
+copying /home/senne/ros2_ws/build/handtracking_pkg/build/lib/handtracking_pkg/handtracking.py -> /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg
+byte-compiling /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg/handtracking.py to handtracking.cpython-310.pyc
+running install_data
+creating /home/senne/ros2_ws/install/handtracking_pkg/share/ament_index
+creating /home/senne/ros2_ws/install/handtracking_pkg/share/ament_index/resource_index
+creating /home/senne/ros2_ws/install/handtracking_pkg/share/ament_index/resource_index/packages
+copying resource/handtracking_pkg -> /home/senne/ros2_ws/install/handtracking_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/senne/ros2_ws/install/handtracking_pkg/share/handtracking_pkg
+copying launch/handtracking_pkg_launch_file.launch.py -> /home/senne/ros2_ws/install/handtracking_pkg/share/handtracking_pkg
+running install_egg_info
+Copying ../../build/handtracking_pkg/handtracking_pkg.egg-info to /home/senne/ros2_ws/install/handtracking_pkg/lib/python3.10/site-packages/handtracking_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing handtracking script to /home/senne/ros2_ws/install/handtracking_pkg/lib/handtracking_pkg
+writing list of installed files to '/home/senne/ros2_ws/build/handtracking_pkg/install.log'

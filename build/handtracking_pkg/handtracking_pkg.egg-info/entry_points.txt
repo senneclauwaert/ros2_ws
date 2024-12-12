@@ -1,0 +1,3 @@
+[console_scripts]
+handtracking = handtracking_pkg.handtracking:main
+
