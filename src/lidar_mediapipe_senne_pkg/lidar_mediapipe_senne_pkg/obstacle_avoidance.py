@@ -3,7 +3,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan
 from rclpy.qos import ReliabilityPolicy, QoSProfile
-import random
+
 
 class ObstacleAvoidance(Node):
     def __init__(self):
@@ -15,17 +15,17 @@ class ObstacleAvoidance(Node):
         # Subscriber for LIDAR data
         self.subscription = self.create_subscription(
             LaserScan,
-            'scan',
+            '/scan',
             self.lidar_callback,
-            QoSProfile(depth=10, reliability=ReliabilityPolicy.RELIABLE)
+            QoSProfile(depth=10, reliability=ReliabilityPolicy.SYSTEM_DEFAULT)
         )
         
         # Subscriber for hand gesture commands
         self.gesture_subscription = self.create_subscription(
             Twist,
-            'hand_gesture_cmd',
+            '/hand_gesture_cmd',
             self.gesture_callback,
-            10
+            QoSProfile(depth=10, reliability=ReliabilityPolicy.SYSTEM_DEFAULT)
         )
         
         self.cmd = Twist()
@@ -38,11 +38,10 @@ class ObstacleAvoidance(Node):
         self.current_speed = 0.0  # Initialize current speed
 
     def lidar_callback(self, msg):
-        # Get forward distance (average of central readings)
-        self.laser_forward = min(min(msg.ranges[0:20]), min(msg.ranges[340:359]))
-        # Get left and right distances
-        self.laser_left = min(msg.ranges[30:90])
-        self.laser_right = min(msg.ranges[270:330])
+        self.laser_forward = msg.ranges[0] 
+        self.laser_left = min([r for r in msg.ranges[0:45] if r != float('inf')], default=float('inf'))
+        self.laser_right = min([r for r in msg.ranges[-45:] if r != float('inf')], default=float('inf'))
+       
 
     def gesture_callback(self, msg):
         # Update current speed based on gesture command

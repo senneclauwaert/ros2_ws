@@ -51,8 +51,8 @@ class HandControl(Node):
         # Get forward distance (average of central readings)
         self.laser_forward = min(min(msg.ranges[0:20]), min(msg.ranges[340:359]))
         # Get left and right distances
-        self.laser_left = min(msg.ranges[30:90])
-        self.laser_right = min(msg.ranges[270:330])
+        self.laser_left = min(msg.ranges[0:90])
+        self.laser_right = min(msg.ranges[270:340])
         
     def calculate_finger_distance(self, hand_landmarks):
         # Calculate distance between index and thumb tip

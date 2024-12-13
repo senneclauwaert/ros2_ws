@@ -53,7 +53,7 @@ class CameraDetection(Node):
                 # Handle gestures
                 if finger_count == 2:  # Two-finger speed control
                     distance = self.calculate_finger_distance(hand_landmarks)
-                    self.base_speed = max(0.1, min(distance, 0.5))  # Limit speed between 0.1 and 0.5
+                    self.base_speed = max(0.1, min(distance, 0.2))  # Limit speed between 0.1 and 0.5
                     cmd_msg.linear.x = self.base_speed
                     self.is_moving = True
                 elif finger_count >= 4:  # Open hand
