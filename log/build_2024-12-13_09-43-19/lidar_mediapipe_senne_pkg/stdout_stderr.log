@@ -1,0 +1,9 @@
+running egg_info
+creating ../../build/lidar_mediapipe_senne_pkg/se.egg-info
+writing ../../build/lidar_mediapipe_senne_pkg/se.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_mediapipe_senne_pkg/se.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_mediapipe_senne_pkg/se.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_mediapipe_senne_pkg/se.egg-info/requires.txt
+writing top-level names to ../../build/lidar_mediapipe_senne_pkg/se.egg-info/top_level.txt
+writing manifest file '../../build/lidar_mediapipe_senne_pkg/se.egg-info/SOURCES.txt'
+error: package directory 'se' does not exist

@@ -1,0 +1,3 @@
+[console_scripts]
+lidar_mediapipe_senne = lidar_mediapipe_senne_pkg.lidar_mediapipe_senne:main
+

@@ -1,0 +1,22 @@
+[0.580s] Invoking command in '/home/senne/ros2_ws/src/lidar_mediapipe_senne_pkg': PYTHONPATH=/home/senne/ros2_ws/build/lidar_mediapipe_senne_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/lidar_mediapipe_senne_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_mediapipe_senne_pkg build --build-base /home/senne/ros2_ws/build/lidar_mediapipe_senne_pkg/build install --record /home/senne/ros2_ws/build/lidar_mediapipe_senne_pkg/install.log --single-version-externally-managed install_data
+[0.803s] running egg_info
+[0.803s] writing ../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info/PKG-INFO
+[0.803s] writing dependency_links to ../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info/dependency_links.txt
+[0.803s] writing entry points to ../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info/entry_points.txt
+[0.804s] writing requirements to ../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info/requires.txt
+[0.804s] writing top-level names to ../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info/top_level.txt
+[0.805s] reading manifest file '../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info/SOURCES.txt'
+[0.806s] writing manifest file '../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info/SOURCES.txt'
+[0.806s] running build
+[0.806s] running build_py
+[0.806s] running install
+[0.806s] running install_lib
+[0.807s] running install_data
+[0.807s] running install_egg_info
+[0.809s] removing '/home/senne/ros2_ws/install/lidar_mediapipe_senne_pkg/lib/python3.10/site-packages/lidar_mediapipe_senne_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.809s] Copying ../../build/lidar_mediapipe_senne_pkg/lidar_mediapipe_senne_pkg.egg-info to /home/senne/ros2_ws/install/lidar_mediapipe_senne_pkg/lib/python3.10/site-packages/lidar_mediapipe_senne_pkg-0.0.0-py3.10.egg-info
+[0.810s] running install_scripts
+[0.826s] Installing camera_detection script to /home/senne/ros2_ws/install/lidar_mediapipe_senne_pkg/lib/lidar_mediapipe_senne_pkg
+[0.826s] Installing obstacle_avoidance script to /home/senne/ros2_ws/install/lidar_mediapipe_senne_pkg/lib/lidar_mediapipe_senne_pkg
+[0.827s] writing list of installed files to '/home/senne/ros2_ws/build/lidar_mediapipe_senne_pkg/install.log'
+[0.850s] Invoked command in '/home/senne/ros2_ws/src/lidar_mediapipe_senne_pkg' returned '0': PYTHONPATH=/home/senne/ros2_ws/build/lidar_mediapipe_senne_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/senne/ros2_ws/install/lidar_mediapipe_senne_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_mediapipe_senne_pkg build --build-base /home/senne/ros2_ws/build/lidar_mediapipe_senne_pkg/build install --record /home/senne/ros2_ws/build/lidar_mediapipe_senne_pkg/install.log --single-version-externally-managed install_data

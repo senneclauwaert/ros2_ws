@@ -1,0 +1,4 @@
+[console_scripts]
+camera_detection = lidar_mediapipe_senne_pkg.camera_detection:main
+obstacle_avoidance = lidar_mediapipe_senne_pkg.obstacle_avoidance:main
+
